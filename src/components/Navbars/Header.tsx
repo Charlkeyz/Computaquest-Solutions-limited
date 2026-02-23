@@ -292,7 +292,7 @@ const Header = () => {
         )}
 
         {/* Mobile Header (Hidden on Laptop) */}
-        <div className="slg:hidden flex flex-col w-full p-4 gap-3 bg-black">
+        <div className="slg:hidden flex flex-col w-full p-4 gap-3 bg-primary-100">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <FiMenu

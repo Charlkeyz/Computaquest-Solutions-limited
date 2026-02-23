@@ -57,7 +57,7 @@ const SortedProducts = () => {
       {/* ─── Popular Products (Hot Products) Section ─── */}
       <div className="relative w-full bg-white py-16 sm:py-24 overflow-hidden">
         {/* Decorative Background Elements */}
-        <div className="absolute top-20 left-10 w-40 h-24 bg-[#8BA79F]/20 rounded-t-full -rotate-45 pointer-events-none hidden xl:block" />
+        <div className="absolute top-20 left-10 w-40 h-24 bg-primary-200/20 rounded-t-full -rotate-45 pointer-events-none hidden xl:block" />
         <div className="absolute top-1/2 -right-10 w-32 h-20 border-2 border-gray-200 rounded-full pointer-events-none hidden xl:block" />
 
         <div className="max-w-[1256px] mx-auto px-4 relative z-10">
@@ -66,7 +66,7 @@ const SortedProducts = () => {
             <p className="text-[10px] sm:text-xs font-bold text-gray-400 uppercase tracking-[0.6em] mb-4">
               Our Products
             </p>
-            <h2 className="text-4xl sm:text-5xl font-black text-[#8BA79F] tracking-tight">
+            <h2 className="text-4xl sm:text-5xl font-black text-primary-300 tracking-tight">
               New Collections
             </h2>
           </div>
@@ -120,7 +120,7 @@ const SortedProducts = () => {
                     <div className="flex items-start justify-between gap-4 px-1">
                       <Link
                         href={`/home-item/product/${slugDesc}-${product.id}`}
-                        className="text-[11px] sm:text-xs font-bold text-[#8BA79F] uppercase tracking-wider hover:opacity-80 transition-opacity line-clamp-1 flex-1"
+                        className="text-[11px] sm:text-xs font-bold text-primary-300 uppercase tracking-wider hover:opacity-80 transition-opacity line-clamp-1 flex-1"
                         dangerouslySetInnerHTML={{
                           __html: product?.name,
                         }}

@@ -13,7 +13,7 @@ const BuyAccessories = () => {
           className="w-full h-full object-cover"
         />
         {/* Overlay for better text readability and blue tint */}
-        <div className="absolute inset-0 bg-[#0092E4]/40 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-primary-100/40 mix-blend-multiply" />
       </div>
 
       {/* Decorative Background Elements */}

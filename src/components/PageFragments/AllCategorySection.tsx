@@ -149,7 +149,7 @@ const AllCategorySection = () => {
   return (
     <>
       {/* Hero Concept inspired by the image */}
-      <div className="relative w-full h-[95vh] overflow-hidden bg-[#3FB6F1]">
+      <div className="relative w-full h-[95vh] overflow-hidden bg-primary-100">
         {/* The Background Image */}
         <Picture
           src={heroBg}
@@ -207,7 +207,7 @@ const AllCategorySection = () => {
       {/* ─── Hot Products (New Arrivals) Section ─── */}
       <div className="relative w-full bg-white py-16 sm:py-24 overflow-hidden">
         {/* Decorative Background Elements */}
-        <div className="absolute top-20 left-10 w-40 h-24 bg-[#8BA79F]/20 rounded-t-full -rotate-45 pointer-events-none hidden xl:block" />
+        <div className="absolute top-20 left-10 w-40 h-24 bg-primary-200/20 rounded-t-full -rotate-45 pointer-events-none hidden xl:block" />
         <div className="absolute top-1/2 -right-10 w-32 h-20 border-2 border-gray-200 rounded-full pointer-events-none hidden xl:block" />
         <div className="absolute bottom-40 -left-10 w-32 h-16 border-2 border-gray-100 rounded-full pointer-events-none hidden xl:block" />
         <div className="absolute -bottom-10 -right-10 w-56 h-56 bg-gray-100 rounded-full pointer-events-none hidden xl:block" />
